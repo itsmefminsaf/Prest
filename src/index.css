@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  transition-duration: 500ms;
+}
+
+.li-item {
+  @apply h-full w-32 rounded-full px-4 py-1 text-center text-lg hover:bg-black hover:font-bold hover:text-white;
+}

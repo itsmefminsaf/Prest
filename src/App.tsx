@@ -1,9 +1,19 @@
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Home from "./components/Home";
+import Nav from "./components/Nav";
+import Pricing from "./components/Pricing";
+import Reviews from "./components/Reviews";
+
 const App = () => {
   return (
     <main>
-      <h1 className="w-fit bg-black px-4 py-2 text-4xl font-extrabold text-white">
-        Prest
-      </h1>
+      <Nav />
+      <Home />
+      <About />
+      <Reviews />
+      <Pricing />
+      <Contact />
     </main>
   );
 };
