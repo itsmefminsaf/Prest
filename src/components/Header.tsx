@@ -6,7 +6,7 @@ import { useState } from "react";
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
-    <header className="bg-fg-secondary/50 outline-fg/50 absolute top-4 left-[5%] z-50 grid w-[90%] grid-cols-2 flex-wrap rounded-3xl p-3 px-5 outline-4 backdrop-blur-3xl sm:grid-cols-[auto_auto]">
+    <header className="bg-fg-secondary/50 outline-fg/50 absolute top-4 left-1/2 z-50 grid w-[90%] max-w-[60rem] -translate-x-1/2 grid-cols-2 flex-wrap rounded-3xl p-3 px-5 outline-4 backdrop-blur-3xl sm:grid-cols-[auto_auto]">
       <img src="/assets/logo.svg" alt="Prest" className="h-7" />
       <button
         className="bg-fg aspect-square place-self-end rounded-2xl p-2 text-white sm:hidden"
