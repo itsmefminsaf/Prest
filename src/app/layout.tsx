@@ -13,7 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`to-bg from-bg-secondary bg-radial antialiased`}>
+      <body
+        className={`to-bg from-bg-secondary bg-radial to-25% bg-no-repeat antialiased`}
+      >
         {children}
       </body>
     </html>
