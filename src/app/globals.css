@@ -5,4 +5,14 @@
   --color-fg: #937666ff;
   --color-bg-secondary: #f2f5eaff;
   --color-bg: #d6dbd2ff;
+  --animate-expand: 0.3s expand;
+}
+
+@keyframes expand {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
 }
