@@ -6,6 +6,19 @@
   --color-bg-secondary: #f2f5eaff;
   --color-bg: #d6dbd2ff;
   --animate-expand: 0.3s expand;
+  --breakpoint-sm: 380px;
+  --breakpoint-md: 640px;
+  --breakpoint-lg: 740px;
+  --breakpoint-xl: 900px;
+}
+
+@layer components {
+  .front-img-large {
+    @apply size-full rounded-2xl p-2 duration-500 hover:rounded-lg md:row-span-3 lg:col-span-3 lg:row-span-1 xl:col-span-1 xl:row-span-1;
+  }
+  .front-img {
+    @apply hidden size-full rounded-2xl p-2 duration-500 hover:rounded-lg sm:block;
+  }
 }
 
 @keyframes expand {
